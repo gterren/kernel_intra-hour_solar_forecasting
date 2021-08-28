@@ -1,1 +1,1 @@
-# Intra-hour Solar Forecasting
+# Kernel Learning for Intra-hour Solar Forecasting
