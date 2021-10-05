@@ -14,7 +14,7 @@ This repository includes codes for multi-output kernel lernarning models. The me
 
 * Multi-Task Regressor
 
-* Dense Kernel Methods
+## Dense Kernel Methods
 
 ### Kernel Ridge Regression
 
