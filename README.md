@@ -34,4 +34,4 @@ The paralellization of the SVM was performed using MPI, and the algorithm used f
 
 ### Relevance Vector Machine for Regression
 
-Implementation of SVM in pytorch for GPUs and CPUs paralellization support. Respectivaly, the codes are CV-RVM.py, CV-RRVM.py, and CV-MTRVM.py for independent RVMs, chain of RVMs and Multi-Task RVM.
+Implementation of RVM in pytorch for GPUs and CPUs paralellization support. Respectivaly, the codes are CV-RVM.py, CV-RRVM.py, and CV-MTRVM.py for independent RVMs, chain of RVMs and Multi-Task RVM.
