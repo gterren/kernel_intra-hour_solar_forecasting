@@ -26,7 +26,7 @@ The multi-output Gaussian processes were implemented using GPytorch library. As 
 
 ## Sparse Kernel Methods
 
-Kerner learning methods that select the basis functions that convey information to the model. Therefore, the covariance matrix (i.e., Gram matrix) dimensions is smaller to the number of samples.
+Kerner learning methods that select the basis functions that convey information to the model. Therefore, the covariance matrix (i.e., Gram matrix) dimensions are smaller than the number of training samples.
 
 ### Support Vector Machine for Regression
 
