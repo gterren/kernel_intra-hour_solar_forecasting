@@ -8,7 +8,7 @@ This repository includes codes for multi-output kernel lernarning models. The me
 
 * Independet Regressors. An independet model for each forecasting horizon.
 
-* Regressors Chain. Similar to the architecture of recursive networks, the regression chain concatenates the output of previous models as covariates in the next one.
+* Regressors Chain. Similar to the architecture of recursive networks, the regression chain concatenates the output of previous models with the covariates in the next one.
 
 * Multi-Task Regressor. A single model for all forecasting horizon.
 
