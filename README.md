@@ -1,20 +1,20 @@
 # Kernel Learning for Intra-hour Solar Forecasting
 
-feature_extraction_utils.py
-
-solar_forecasting_utils_v2.py
+The codes in this repository required auxiliar functions to construct the dataset and the running the cross-validation of the kernels' hyperparameters and models' parameters. Thes functions necessaries are included in these two files: feature_extraction_utils.py and solar_forecasting_utils_v2.py.
 
 ## Multi-Ouput Kernel Regression
 
 This repository includes codes for multi-output kernel lernarning models. The methods implemented to develop multi-output models are:
 
-* independet Regressors
+* Independet Regressors. An independet model for each forecasting horizon.
 
-* Regressors Chain 
+* Regressors Chain. Similar to the architecture of recursive networks, the regression chain concatenates the output of previous models as covariates in the next one.
 
-* Multi-Task Regressor
+* Multi-Task Regressor. A single model for all forecasting horizon.
 
 ## Dense Kernel Methods
+
+Kernel learning methods that use all the samples to define the covariance matrix (i.e., Gram matrix).
 
 ### Kernel Ridge Regression
 
@@ -22,12 +22,11 @@ Implementation of KRR in pytorch for GPUs and CPUs paralellization support. Resp
 
 ### Gaussian Process for Regression
 
-CV-GPR.py, CV-RGPR.py, CV-MTGPR.py
-
-
-machine_learning_utils.py
+The multi-output Gaussian processes were implemented using GPytorch library. As this library is implemented using pytorch, the traning support parallelization. The codes are CV-GPR.py, CV-RGPR.py, and CV-MTGPR.py, for the independent GPRs, the chain of GPRs and the Multi-Task GPR respectivaly. The models implementation in GPytorch are defined in this file machine_learning_utils.py.
 
 ## Sparse Kernel Methods
+
+Kerner learning methods that select the basis functions that convey information to the model. Therefore, the covariance matrix (i.e., Gram matrix) dimensions is smaller to the number of samples.
 
 ### Support Vector Machine for Regression
 
