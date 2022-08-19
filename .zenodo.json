@@ -1,9 +1,9 @@
 {
-    "description": "<p>Codes for cloud segmentation in ground-based infrared sky images adquiared using an sky imager mounted on a solar tracker. The codes run in a High Performances Computer. The library for the paralellization is MPI.</p><p>See journal article: <a href='https://www.sciencedirect.com/science/article/pii/S0960148121006674'>https://www.sciencedirect.com/science/article/pii/S0960148121006674</a></p><p>See CEEGE conference article: <a href='https://www.sciencedirect.com/science/article/pii/S2352484721006235'>https://www.sciencedirect.com/science/article/pii/S2352484721006235</a></p><p>See IEEE PES ISGT conference article: <a href='https://ieeexplore.ieee.org/document/9639922'>https://ieeexplore.ieee.org/document/9639922</a></p><p>See realated data: <a href='https://doi.org/10.5061/dryad.zcrjdfn9m'>https://doi.org/10.5061/dryad.zcrjdfn9m</a></p><p>Additional funding was provided by the King Felipe VI Endowed Chair of the University of New Mexico.</p>", 
+    "description": "<p>The codes in this repository required auxiliar functions to construct the dataset and the running the cross-validation of the kernels' hyperparameters and models' parameters. Thes functions necessaries are included in these two files: feature_extraction_utils.py and solar_forecasting_utils_v2.py.</p><p>See preprint article: <a href='https://arxiv.org/pdf/2110.05622.pdf'>https://arxiv.org/pdf/2110.05622.pdf</a></p><p>See realated data: <a href='https://doi.org/10.5061/dryad.zcrjdfn9m'>https://doi.org/10.5061/dryad.zcrjdfn9m</a></p><p>Additional funding was provided by the King Felipe VI Endowed Chair of the University of New Mexico.</p>", 
     "license": "Apache-2.0", 
-    "title": "Cloud Segmentation in Infrared Sky Images", 
+    "title": "Multi-Task Kernel Learning for Intra-Hour Solar Forecasting", 
     "upload_type": "software", 
-    "publication_date": "2022-08-17", 
+    "publication_date": "2022-08-18", 
     "creators": [
         {
             "affiliation": "University of New Mexico", 
@@ -23,27 +23,22 @@
     "related_identifiers": [
         {
             "scheme": "url", 
-            "identifier": "https://github.com/gterren/cloud_segmentation", 
+            "identifier": "https://github.com/gterren/kernel_intra-hour_solar_forecasting", 
             "relation": "isSupplementTo"
         }, 
+        {
+            "scheme": "url", 
+            "identifier": "https://github.com/gterren/feature_extraction_and_selection", 
+            "relation": "isSupplementTo"
+        },
+        {
+            "scheme": "url", 
+            "identifier": "https://arxiv.org/pdf/2110.05622.pdf", 
+            "relation": "isSupplementTo"
+        },
         {
             "scheme": "doi", 
             "identifier": "10.5061/dryad.zcrjdfn9m", 
-            "relation": "isSupplementTo"
-        }, 
-        {
-            "scheme": "doi", 
-            "identifier": "10.1016/j.egyr.2021.08.020", 
-            "relation": "isSupplementTo"
-        },
-              {
-            "scheme": "doi", 
-            "identifier": "10.1016/j.renene.2021.04.141", 
-            "relation": "isSupplementTo"
-        },
-        {
-            "scheme": "doi", 
-            "identifier": "10.1109/ISGTEurope52324.2021.9639922", 
             "relation": "isSupplementTo"
         }
     ]
