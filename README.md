@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/390833994.svg)](https://zenodo.org/badge/latestdoi/390833994)
+
 # Kernel Learning for Intra-hour Solar Forecasting
 
 The codes in this repository required auxiliar functions to construct the dataset and the running the cross-validation of the kernels' hyperparameters and models' parameters. Thes functions necessaries are included in these two files: feature_extraction_utils.py and solar_forecasting_utils_v2.py.
